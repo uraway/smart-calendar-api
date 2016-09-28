@@ -6,11 +6,11 @@ gem 'devise'
 gem 'rack-cors'
 gem 'delayed_job_active_record'
 gem 'puma', '~> 3.0'
-gem 'sqlite3'
 gem 'pg'
 gem 'daemons'
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'factory_girl_rails', '~> 4.0'
